@@ -1,46 +1,69 @@
-# lone-approval-prediction-system
-Project Overview
+# 🏦 Loan Approval Prediction System
 
-This project predicts whether a loan application will be approved based on applicant information such as income, loan amount, and credit history.
+## 📌 Problem Statement
 
-Dataset
+Financial institutions need to assess loan applications efficiently while minimizing risk.
+This project builds a machine learning model to predict whether a loan application will be approved based on applicant details.
 
-Loan Prediction Dataset
-Source: Kaggle
+---
 
-Technologies Used
+## 🎯 Objectives
 
-Python
+* Analyze key factors influencing loan approval
+* Handle imbalanced data effectively
+* Build and compare multiple classification models
+* Provide explainable predictions
 
-Pandas
+---
 
-Scikit-learn
+## 📂 Dataset
 
-Logistic Regression
+* Loan Approval Dataset (Kaggle)
+* Features include:
 
-Workflow
+  * Income
+  * Loan Amount
+  * Credit History
+  * Employment Status
 
-Data cleaning
+---
 
-Handling missing values
+## 🧹 Data Preprocessing
 
-Encoding categorical variables
+* Handled missing values
+* Encoded categorical variables
+* Applied feature scaling
+* Addressed class imbalance using SMOTE
 
-Model training
+---
 
-Model evaluation
+## 📊 Exploratory Data Analysis (EDA)
 
-Machine Learning Model
+* Distribution of approved vs rejected loans
+* Impact of credit history
+* Income vs loan approval trends
 
-Logistic Regression
+---
 
-Evaluation Metric
+## 🤖 Machine Learning Models
 
-Accuracy Score
+* Logistic Regression (baseline)
+* Random Forest Classifier
+* XGBoost Classifier
 
-Example Output
-1 → Loan Approved
-0 → Loan Rejected
-Business Insight
+---
 
-Credit history is the most important factor influencing loan approval.
+## ⚙️ Model Training
+
+* Train-test split
+* Cross-validation
+* Hyperparameter tuning
+
+---
+
+## 📈 Results
+
+* XGBoost achieved best performance
+* Accuracy: ~94%
+* Precision: ~93.8%
+* Recall: ~
